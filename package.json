@@ -1,0 +1,15 @@
+{
+  "name": "navbar",
+  "version": "1.0.0",
+  "description": "responsive navbar using css-grid",
+  "main": "app.js",
+  "author": "ankush thakur",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "node-sass": "^4.11.0"
+  },
+  "scripts": {
+    "scss": "node-sass --watch component/scss -o component/css"
+  }
+}
